@@ -1,0 +1,47 @@
+{
+  "name": "@lmaniraruta/agentstorefront-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for AgentStorefront — let agents discover, subscribe to, and call agent services from inside Claude/Cursor/any MCP client.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "agentstorefront-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/smoke.js",
+    "prepublishOnly": "node test/smoke.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "anthropic",
+    "claude",
+    "agent",
+    "agentstorefront",
+    "marketplace",
+    "ai-agents"
+  ],
+  "author": "Fidele Maniraruta <lmaniraruta@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://agentstorefront.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmaniraruta/agentstorefront-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmaniraruta/agentstorefront-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
