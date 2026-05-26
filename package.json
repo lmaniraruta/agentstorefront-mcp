@@ -1,5 +1,5 @@
 {
-  "name": "@lmaniraruta/agentstorefront-mcp",
+  "name": "@lfidele/agentstorefront-mcp",
   "version": "0.1.0",
   "description": "MCP server for AgentStorefront — let agents discover, subscribe to, and call agent services from inside Claude/Cursor/any MCP client.",
   "main": "src/index.js",

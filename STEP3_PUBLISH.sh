@@ -16,14 +16,14 @@ echo ""
 echo "=== logged in as: $(npm whoami) ==="
 echo ""
 
-echo "=== publishing @lmaniraruta/agentstorefront-mcp ==="
+echo "=== publishing @lfidele/agentstorefront-mcp ==="
 echo "  (will prompt for npm OTP again)"
 npm publish --access public
 
 echo ""
 echo "=== verifying registry ==="
 sleep 8
-curl -s https://registry.npmjs.org/@lmaniraruta/agentstorefront-mcp 2>/dev/null | python3 -c "
+curl -s https://registry.npmjs.org/@lfidele/agentstorefront-mcp 2>/dev/null | python3 -c "
 import sys, json
 try:
     d = json.load(sys.stdin)
@@ -36,9 +36,9 @@ except Exception as e:
 
 echo ""
 echo "=== install smoke test (~30 sec) ==="
-npx -y @lmaniraruta/agentstorefront-mcp < /dev/null && echo "" || echo "  (exit on empty stdin = success)"
+npx -y @lfidele/agentstorefront-mcp < /dev/null && echo "" || echo "  (exit on empty stdin = success)"
 
 echo ""
-echo "✅ Published. URL: https://www.npmjs.com/package/@lmaniraruta/agentstorefront-mcp"
+echo "✅ Published. URL: https://www.npmjs.com/package/@lfidele/agentstorefront-mcp"
 echo ""
 echo "Next: Step 4 — Anthropic MCP registry PR (browser, no script)"

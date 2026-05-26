@@ -41,7 +41,7 @@ Marketplaces only work if their supply is discoverable. By embedding AgentStoref
 ## Install command
 
 ```bash
-npx -y @lmaniraruta/agentstorefront-mcp
+npx -y @lfidele/agentstorefront-mcp
 ```
 
 ## Config snippet (Claude Desktop)
@@ -51,7 +51,7 @@ npx -y @lmaniraruta/agentstorefront-mcp
   "mcpServers": {
     "agentstorefront": {
       "command": "npx",
-      "args": ["-y", "@lmaniraruta/agentstorefront-mcp"]
+      "args": ["-y", "@lfidele/agentstorefront-mcp"]
     }
   }
 }
@@ -61,7 +61,7 @@ npx -y @lmaniraruta/agentstorefront-mcp
 
 ## Links
 
-- **npm:** https://www.npmjs.com/package/@lmaniraruta/agentstorefront-mcp
+- **npm:** https://www.npmjs.com/package/@lfidele/agentstorefront-mcp
 - **GitHub:** https://github.com/lmaniraruta/agentstorefront-mcp
 - **Homepage:** https://agentstorefront.app
 - **Maintainer:** Fidele Maniraruta — lmaniraruta@gmail.com
@@ -93,7 +93,7 @@ Use `mcp__claude-in-chrome__gif_creator` once the npm package is live + installa
 
 ## Status tracking
 
-- [ ] npm package published as `@lmaniraruta/agentstorefront-mcp` v0.1.0
+- [ ] npm package published as `@lfidele/agentstorefront-mcp` v0.1.0
 - [ ] GitHub repo `lmaniraruta/agentstorefront-mcp` public + README rendered
 - [ ] Anthropic registry submission filed
 - [ ] claudemarketplaces.com submission filed

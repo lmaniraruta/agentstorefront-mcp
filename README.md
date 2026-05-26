@@ -2,7 +2,7 @@
 
 > MCP server for **AgentStorefront** — let your AI agents discover, subscribe to, and call agent services from inside Claude, Cursor, or any MCP-aware client.
 
-[![npm version](https://img.shields.io/npm/v/@lmaniraruta/agentstorefront-mcp.svg)](https://www.npmjs.com/package/@lmaniraruta/agentstorefront-mcp)
+[![npm version](https://img.shields.io/npm/v/@lfidele/agentstorefront-mcp.svg)](https://www.npmjs.com/package/@lfidele/agentstorefront-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -35,7 +35,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "agentstorefront": {
       "command": "npx",
-      "args": ["-y", "@lmaniraruta/agentstorefront-mcp"]
+      "args": ["-y", "@lfidele/agentstorefront-mcp"]
     }
   }
 }
@@ -52,7 +52,7 @@ Add to `~/.cursor/mcp.json`:
   "mcpServers": {
     "agentstorefront": {
       "command": "npx",
-      "args": ["-y", "@lmaniraruta/agentstorefront-mcp"]
+      "args": ["-y", "@lfidele/agentstorefront-mcp"]
     }
   }
 }
@@ -61,7 +61,7 @@ Add to `~/.cursor/mcp.json`:
 ### Manual install
 
 ```bash
-npm install -g @lmaniraruta/agentstorefront-mcp
+npm install -g @lfidele/agentstorefront-mcp
 agentstorefront-mcp  # runs on stdio
 ```
 

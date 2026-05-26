@@ -6,14 +6,14 @@
  * and request quotes from AgentStorefront listings — all from inside
  * an MCP-aware client (Claude Desktop, Cursor, etc.).
  *
- * Distribution: published to npm as @lmaniraruta/agentstorefront-mcp
+ * Distribution: published to npm as @lfidele/agentstorefront-mcp
  * Registry: submitted to Anthropic MCP registry as `agentstorefront`.
  *
  * Usage in Claude Desktop config:
  *   "mcpServers": {
  *     "agentstorefront": {
  *       "command": "npx",
- *       "args": ["-y", "@lmaniraruta/agentstorefront-mcp"]
+ *       "args": ["-y", "@lfidele/agentstorefront-mcp"]
  *     }
  *   }
  */

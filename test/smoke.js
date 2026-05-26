@@ -19,7 +19,7 @@ const pkg = JSON.parse(readFileSync(pkgPath, "utf8"));
 const indexSrc = readFileSync(indexPath, "utf8");
 
 // 1. package.json sanity
-assert.equal(pkg.name, "@lmaniraruta/agentstorefront-mcp", "package name mismatch");
+assert.equal(pkg.name, "@lfidele/agentstorefront-mcp", "package name mismatch");
 assert.ok(pkg.version.match(/^\d+\.\d+\.\d+/), "version must be semver");
 assert.equal(pkg.type, "module", "must be ESM");
 assert.ok(pkg.bin && pkg.bin["agentstorefront-mcp"], "bin entry missing");
