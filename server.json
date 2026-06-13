@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lmaniraruta/agentstorefront",
+  "description": "MCP for AgentStorefront — discover, price, and subscribe to paid agent services.",
+  "repository": {
+    "url": "https://github.com/lmaniraruta/agentstorefront-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@lfidele/agentstorefront-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

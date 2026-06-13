@@ -1,7 +1,8 @@
 {
   "name": "@lfidele/agentstorefront-mcp",
-  "version": "0.1.0",
-  "description": "MCP server for AgentStorefront — let agents discover, subscribe to, and call agent services from inside Claude/Cursor/any MCP client.",
+  "version": "0.1.1",
+  "mcpName": "io.github.lmaniraruta/agentstorefront",
+  "description": "MCP server for AgentStorefront \u2014 let agents discover, subscribe to, and call agent services from inside Claude/Cursor/any MCP client.",
   "main": "src/index.js",
   "type": "module",
   "bin": {
@@ -10,7 +11,9 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "node test/smoke.js",
-    "prepublishOnly": "node test/smoke.js"
+    "prepublishOnly": "node test/smoke.js",
+    "start:http": "node src/http.js",
+    "test:http": "node test/smoke-http.js"
   },
   "files": [
     "src/",
@@ -38,7 +41,7 @@
     "url": "https://github.com/lmaniraruta/agentstorefront-mcp/issues"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
     "node-fetch": "^3.3.2"
   },
   "engines": {
